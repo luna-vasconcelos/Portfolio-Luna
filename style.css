@@ -1,0 +1,21 @@
+body{
+    background-color: #d8d8d8;
+}
+.social-media ul{
+    position: absolute;
+    top: 85%;
+    left: 2%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.social-media ul li{
+    list-style: circle;
+    margin: 50px;
+}
+.social-media ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    
+}
