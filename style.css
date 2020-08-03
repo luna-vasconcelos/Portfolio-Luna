@@ -1,5 +1,22 @@
 body{
     background-color: #d8d8d8;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+}
+.menu ul li a{
+    color: teal;
+    text-decoration: none;
+}
+.site-title,
+.site-subtitle{
+    text-align: center;
 }
 .social-media ul{
     position: absolute;
